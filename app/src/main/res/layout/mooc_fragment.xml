@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/mooc_ui_01"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/download"
+            android:text="曲谱下载"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="#a81206"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mycourse"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="我的课程"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/choosecourse"
+            android:textSize="20sp"
+            android:text="在线选课"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="liuwen"
+            android:id="@+id/username"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logout"
+            android:text="|退出"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mooc_content"
+        android:layout_weight="8">
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:id="@+id/temp" />
+
+    <include
+        layout="@layout/onlinecourse_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bar1"/>
+    <include
+        layout="@layout/onlinecourse_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bar2"/>
+    <include
+        layout="@layout/onlinecourse_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bar3"/>
+    <include
+        layout="@layout/onlinecourse_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bar4"/>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/onlineCourseGridView"
+        android:layout_gravity="center_horizontal"
+        android:horizontalSpacing="15dp"
+        android:verticalSpacing="15dp"
+        android:columnWidth="200dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="auto_fit"
+        android:scrollbars="none"
+        />
+
+</LinearLayout>

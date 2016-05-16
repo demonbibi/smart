@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1.3"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:id="@+id/radiogroup">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/radioButton1"
+            android:button="@null"
+            android:drawableTop="@mipmap/home"
+            android:layout_gravity="center"
+            />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/radioButton2"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:drawableTop="@mipmap/music"
+            />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/radioButton3"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:drawableTop="@mipmap/mooc"/>
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/radioButton4"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:drawableTop="@mipmap/center"/>
+    </RadioGroup>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:id="@+id/radiogroup">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="学生"
+                android:gravity="center"
+                android:button="@null"
+                android:id="@+id/cb_xuesheng" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="课程"
+                android:gravity="center"
+                android:button="@null"
+                android:id="@+id/cb_kecheng" />
+        </LinearLayout>
+
+    </RadioGroup>
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/cb_list"
+        android:layout_below="@id/radiogroup"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- 个人中心菜单条目间距颜色 -->
+    <color name="gray_menu_line">#6e6e6e</color>
+
+    <color name="listitem_selected">#ffb2b2b2</color>
+    <color name="listitem_default">#FFFFFFFF</color>
+    <color name="personal_divide_fragment">#DFDFDF</color>
+</resources>
